@@ -3,7 +3,6 @@
   width: 100%;
   min-height: 70px;
   max-height: 7vh;
-  /*min height = button height + top and bottom spacing*/
   background: grey;
 
   padding: 10px 50px 10px 50px;
