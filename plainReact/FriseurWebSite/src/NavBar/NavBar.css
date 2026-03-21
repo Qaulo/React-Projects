@@ -1,0 +1,24 @@
+.NavBarContainer {
+  box-sizing: border-box; /* box.sizing: border-box = damit padding nicht außen auf width drauf gerechnet wird. padding + contentHeight = Height*/
+  width: 100%;
+  min-height: 70px;
+  max-height: 7vh;
+  /*min height = button height + top and bottom spacing*/
+  background: grey;
+
+  padding: 10px 50px 10px 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.ButtonContainer {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.ButtonContainer button {
+  padding: 4px 16px; /*Button height insgesamt = 28px*/
+}
