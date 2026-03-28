@@ -21,3 +21,6 @@
 .ButtonContainer button {
   padding: 4px 16px; /*Button height insgesamt = 28px*/
 }
+body {
+  margin: 0px;
+}
